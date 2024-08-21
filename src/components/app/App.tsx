@@ -7,20 +7,20 @@ import { ArticleParamsForm } from '../article-params-form';
 import { ArticleStateType, defaultArticleState,  } from '../../constants/articleProps';
 
 export const App = () => {
-	const [appState, setAppState] = useState<ArticleStateType>(defaultArticleState);
+	const [ArticleState, setArticleAppState] = useState<ArticleStateType>(defaultArticleState);
 	return (
 		<div
 			className={clsx(styles.main)}
 			style={
 				{
-					'--font-family': appState.fontFamilyOption.value,
-					'--font-size': appState.fontSizeOption.value,
-					'--font-color': appState.fontColor.value,
-					'--container-width': appState.contentWidth.value,
-					'--bg-color': appState.backgroundColor.value,
+					'--font-family': ArticleState.fontFamilyOption.value,
+					'--font-size': ArticleState.fontSizeOption.value,
+					'--font-color': ArticleState.fontColor.value,
+					'--container-width': ArticleState.contentWidth.value,
+					'--bg-color': ArticleState.backgroundColor.value,
 				} as CSSProperties
 			}>
-			<ArticleParamsForm setAppState={setAppState} />
+			<ArticleParamsForm setAppState={setArticleAppState} />
 			<Article />
 		</div>
 	);
