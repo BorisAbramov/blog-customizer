@@ -65,13 +65,13 @@ export const fontColors: OptionType[] = [
 		optionClassName: 'option-fuchsia',
 	},
 	{
-		title: 'Жёлтый',
+		title: 'Желтый',
 		value: '#FFC802',
 		className: 'font-yellow',
 		optionClassName: 'option-yellow',
 	},
 	{
-		title: 'Зелёный',
+		title: 'Зеленый',
 		value: '#80D994',
 		className: 'font-green',
 		optionClassName: 'option-green',
@@ -122,13 +122,13 @@ export const backgroundColors: OptionType[] = [
 		optionClassName: 'option-fuchsia',
 	},
 	{
-		title: 'Жёлтый',
+		title: 'Желтый',
 		value: '#FFC802',
 		className: 'bg-yellow',
 		optionClassName: 'option-yellow',
 	},
 	{
-		title: 'Зелёный',
+		title: 'Зеелный',
 		value: '#80D994',
 		className: 'bg-green',
 		optionClassName: 'option-green',
